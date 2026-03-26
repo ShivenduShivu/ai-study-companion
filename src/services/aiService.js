@@ -13,7 +13,7 @@ export async function generateSummary(text) {
       messages: [
         {
           role: 'user',
-          content: `Summarize this study material in simple, clear bullet points:\n\n${text}`,
+          content: `Summarize this study material in simple, in clear bullet points,explain within 250 words, make it look good use emojis and other styling techniques to give better response:\n\n${text}`,
         },
       ],
       max_tokens: 300,
